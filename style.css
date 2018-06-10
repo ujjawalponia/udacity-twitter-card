@@ -1,0 +1,154 @@
+*{font-family: 'Chivo', sans-serif;}
+/**Twitter Card Design**/
+.twitter-box {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 0 #dee2e8;
+}
+.twitter-box:after, .twitter-box:before {
+	top: 100%;
+	left: 15%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.twitter-box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #fff;
+	border-width: 6px;
+	margin-left: -6px;
+}
+.twitter-box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #dee2e8;
+	border-width: 7px;
+	margin-left: -7px;
+}
+
+.twitter-box:hover {
+    box-shadow: 0 0 20px 0 #000;
+}
+
+/**Background Image**/
+.twitter-image {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/**Logo Image**/
+.twitter-logo {
+    width: 70px;
+    border-radius: 50%;
+    margin-top: -2.5em;
+    padding: 10px;
+    
+}
+
+/**Twitter Inner Box Design**/
+.twitter-inner-box {
+    padding: 10px 15px 10px 15px;
+}
+
+/**Twitter Follow Button**/
+.twitter-button {
+    float: right;
+    margin: 15px;
+    border: 1px solid #02b3e4;
+    background: transparent;
+    width: 85px;
+    height: 27px;
+    border-radius: 30px;
+    color: #02b3e4;
+    font-size: 12px;
+    padding-top:5px; 
+    font-weight: bold;
+}
+
+.twitter-button:hover{
+    background-color: #e6faff;
+    cursor: pointer;
+}
+
+/**Udacity India Twitter Hnadler**/
+.twitter-title {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.twitter-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.twitter-username {
+    margin: 0px;
+    font-weight: 100;
+    color: #657786;
+    font-size: 15px;
+}
+
+.twitter-username:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.twitter-caps {
+    text-transform: uppercase;
+}
+
+.twitter-text {
+    color: #3b4148;
+    font-size: 14px;
+}
+
+/**Twitter Figure Box**/
+.twitter-figure {
+    width: 100%;
+}
+
+.twitter-fig {
+    max-width: 33.3%;
+    float: left;
+    margin-right: 2em;
+}
+
+.figure-title {
+    margin: 0px;
+    color:#657786;
+    font-size: 12px; 
+}
+
+.figure-title:hover{
+    color: #02b3e4;
+}
+
+.figure-number {
+    color:#02b3e4;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+}
+
+/**Twitter Followes**/
+.twitter-follow {
+    font-size: 12px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.twitter-follow a {
+    text-decoration: none;
+    color: #02b3e4;
+}
+
+.twitter-follow a:hover {
+    text-decoration: underline;
+}
